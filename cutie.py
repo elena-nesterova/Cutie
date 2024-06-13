@@ -2,7 +2,7 @@ from threading import Thread, Lock
 from time import sleep
 from py122u import nfc
 
-class cuty:
+class cutie:
 
     def __init__(self, action, get_request, give_reaction, interval_sec=20):
 
@@ -85,11 +85,9 @@ class cuty:
             sleep(0.2)
     @property
     def __check_nfc(self):
-        return True
-        try:
 
+        try:
             reader = nfc.Reader()
-            reader.connect()
         except:
             return False
 

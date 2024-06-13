@@ -1,5 +1,5 @@
 from conversation_mode import conversation
-import cuty_communication_types
+import cutie_communication_types
 
 '''
 [   [   [inputs ], [outputs] ], [   [inputs ], [outputs] ], ...]
@@ -29,9 +29,9 @@ dialogs                         [[[ ], [ ]], [[ ], [ ]], ...]
 
 class conversation1(conversation.conversation):
 
-    __lang = cuty_communication_types.beast_language.nl
-    __conv_type = (cuty_communication_types.beast_answer_type_flags.text &
-                   cuty_communication_types.beast_answer_type_flags.text_to_speech)
+    __lang = cutie_communication_types.beast_language.nl
+    __conv_type = (cutie_communication_types.beast_answer_type_flags.text &
+                   cutie_communication_types.beast_answer_type_flags.text_to_speech)
 
     __dialogs = [
         [
